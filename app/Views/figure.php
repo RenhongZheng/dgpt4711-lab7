@@ -7,8 +7,10 @@
 		<h1>three country personage</h1>
 		<p><strong>ID:</strong> {id}</p>
 		<p><strong>Name:</strong> {name}</p>
+                <p><strong>age:</strong> {age}</p>
+                <p><strong>countries:</strong> {countries}</p>
 		<p><strong>Description:</strong> {description}</p>
-                <p><strong>achievements:</strong> {link}</p>
+                <p><strong>achievements:</strong> {achievements}</p>
 		<p><img src="/image/{image}"/></p>
 		<p><a href="/home">Home</a></p>
 	</body>
