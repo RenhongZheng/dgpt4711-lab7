@@ -110,8 +110,8 @@ $record = $place->find($id);
 
 $parser = \Config\Services::parser(); // tell it about the substitions 
                 $fields = [
-            'title' => 'List of Heroes ',
-            'heading' => 'List of Heroes ',
+            'title' => 'List of  '.$record['name'].'',
+            'heading' => 'List of  '.$record['name'].'',
             'footer' => 'Copyright RenhongZhneg'];
 
         
