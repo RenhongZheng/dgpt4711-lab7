@@ -58,8 +58,8 @@ class Three_Kingdoms extends BaseController
 $parser = \Config\Services::parser(); // tell it about the substitions
         
         $fields = [
-            'title' => 'List of Heroes Destinationss',
-            'heading' => 'List of Heroes Destinations',
+            'title' => 'List of Heroes ',
+            'heading' => 'List of Heroes ',
             'footer' => 'Copyright RenhongZhneg'];
 
         
@@ -110,8 +110,8 @@ $record = $place->find($id);
 
 $parser = \Config\Services::parser(); // tell it about the substitions 
                 $fields = [
-            'title' => 'List of Heroes Destinationss',
-            'heading' => 'List of Heroes Destinations',
+            'title' => 'List of Heroes ',
+            'heading' => 'List of Heroes ',
             'footer' => 'Copyright RenhongZhneg'];
 
         
